@@ -391,7 +391,20 @@ header .navbar {
 	font-family: 'FontAwesome';
 }
 
-
+.floating-button{
+	display: none;
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    background-color: #144180;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 60%;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1;
+}
 
 /* Banner Style */
 
