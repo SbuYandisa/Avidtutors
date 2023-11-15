@@ -393,18 +393,55 @@ header .navbar {
 }
 
 .floating-button{
-	display: none;
-    position: fixed;
-    bottom: 20px; /* Adjust the distance from the bottom as needed */
-    right: 20px; /* Adjust the distance from the right as needed */
-    background-color: #144180;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 60%;
-    cursor: pointer;
-    font-size: 16px;
-    z-index: 1;
+    	position: fixed;
+    	bottom: 20px; /* Adjust the distance from the bottom as needed */
+    	right: 40px; /* Adjust the distance from the right as needed */
+    	width:60px;
+    	height:60px;
+    	background-color: #144180;
+    	color: #ffffff;
+    	border: none;
+    	padding: 10px 20px;
+    	border-radius: 50px;
+    	text-align:center;
+    	box-shadow: 2px 2px 3px #999;
+    	cursor: pointer;
+    	font-size:20px;
+    	z-index: 100;
+}
+
+.floating-whatsapp-button{
+        position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:120px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  	font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  	z-index:100;
+}
+
+.floating-email-button{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:200px;
+	background-color:red;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  	font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  	z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
 }
 
 /* Banner Style */
