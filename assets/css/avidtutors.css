@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
@@ -247,7 +248,7 @@ a.border-button:hover {
 }
 
 .sub-header ul.left-info li i {
-	margin-right: 10px;
+	margin-left: 10px;
 	font-size: 18px;
 }
 
@@ -385,25 +386,25 @@ header .navbar {
 }
 
 .floating-button{
-    	position: fixed;
-    	bottom: 20px; /* Adjust the distance from the bottom as needed */
-    	right: 40px; /* Adjust the distance from the right as needed */
-    	width:60px;
-    	height:60px;
-    	background-color: #144180;
-    	color: #ffffff;
-    	border: none;
-    	padding: 10px 20px;
-    	border-radius: 50px;
-    	text-align:center;
-    	box-shadow: 2px 2px 3px #999;
-    	cursor: pointer;
-    	font-size:20px;
-    	z-index: 100;
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 40px; /* Adjust the distance from the right as needed */
+	width:60px;
+	height:60px;
+    background-color: #144180;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+    cursor: pointer;
+    font-size:20px;
+    z-index: 100;
 }
 
 .floating-whatsapp-button{
-        position:fixed;
+	position:fixed;
 	width:60px;
 	height:60px;
 	bottom:20px;
@@ -435,7 +436,6 @@ header .navbar {
 .my-float{
 	margin-top:16px;
 }
-
 /* Banner Style */
 
 .img-fill{
