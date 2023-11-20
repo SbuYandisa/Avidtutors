@@ -1428,7 +1428,7 @@ footer .contact-form button.filled-button:hover {
 	.navbar .navbar-brand {
 		position: absolute;
 		left: 0px;
-		top: 10px;
+		top: -5px;
 	}
 	.navbar .navbar-brand {
 		width: auto;
