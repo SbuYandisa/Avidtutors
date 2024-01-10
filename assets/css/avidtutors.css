@@ -387,17 +387,17 @@ header .navbar {
 
 .floating-button{
     position: fixed;
-    bottom: 10px; /* Adjust the distance from the bottom as needed */
-    right: 30px; /* Adjust the distance from the right as needed */
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 40px; /* Adjust the distance from the right as needed */
     width:60px;
     height:60px;
     background-color: #144180;
     color: #ffffff;
     border: none;
-    padding: 30px 30px;
+    padding: 10px 20px;
     border-radius: 50px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
     cursor: pointer;
     font-size:20px;
     z-index: 100;
