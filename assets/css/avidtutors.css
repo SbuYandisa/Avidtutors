@@ -389,8 +389,8 @@ header .navbar {
     position: fixed;
     bottom: 20px; /* Adjust the distance from the bottom as needed */
     right: 40px; /* Adjust the distance from the right as needed */
-	width:60px;
-	height:60px;
+    width:30px;
+    height:30px;
     background-color: #144180;
     color: #ffffff;
     border: none;
@@ -399,7 +399,7 @@ header .navbar {
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
     cursor: pointer;
-    font-size:20px;
+    font-size:10px;
     z-index: 100;
 }
 
