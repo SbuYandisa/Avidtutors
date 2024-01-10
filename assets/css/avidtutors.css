@@ -387,8 +387,8 @@ header .navbar {
 
 .floating-button{
     position: fixed;
-    bottom: 20px; /* Adjust the distance from the bottom as needed */
-    right: 40px; /* Adjust the distance from the right as needed */
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
+    right: 30px; /* Adjust the distance from the right as needed */
     width:30px;
     height:30px;
     background-color: #144180;
