@@ -130,12 +130,85 @@ a.border-button:hover {
 	transition: background-color 0.3s ease;
 }
 
-.about:hover{
-	background-color:goldenrod;
-	color: #144180;
-	height: 200px;
-	font-size: 100px;
-	text-shadow: #144180;
+.custom-checkbox{
+	border-radius: 30px;
+	background-color: white;
+	font-size: 15px;
+	color: #aaa;
+	width: 200px;
+	height: 30px;
+}
+
+.custom-checkbox input{
+	border-radius: 40px;
+	width: 15px;
+	height: 15px;
+}
+
+.form-p{
+	font-size: large;
+	color: #ffffff;
+}
+
+.custom-checkbox input:hover{
+	cursor: pointer;
+}
+
+.form-submitted{
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.image-container{
+	border-radius: 50%;
+	width: 400px;
+	height: auto;
+
+}
+@media (max-width: 991px){
+	.image-container{
+		border-radius: 50%;
+		width: 300px;
+		height: auto;
+	
+	}
+
+}
+
+@media (max-width: 767px){
+	.image-container{
+		border-radius: 50%;
+		width: 300px;
+		height: auto;
+	
+	}
+
+}
+
+@keyframes moveText {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+.moving-text {
+	white-space: nowrap;
+	overflow: hidden;
+	animation: moveText 30s linear infinite;
+	display: inline-block;
+}
+
+.moving-text:hover {
+	animation-play-state: paused;
+}
+
+.moving-text p{
+	font-size: larger;
+	font-weight: bold;
 }
 
 .section-heading span {
@@ -1249,6 +1322,7 @@ footer .contact-form button.filled-button:hover {
 .single-services {
 	margin-top: 140px;
 	padding-bottom: 4rem;
+	border-radius: 40px;
 }
 
 #tabs ul {
@@ -1264,7 +1338,6 @@ footer .contact-form button.filled-button:hover {
   margin-bottom: 0px;
 }
 #tabs ul li a {
-	text-transform: capitalize;
 	width: 100%;
 	padding: 30px 30px;
 	display: inline-block;
@@ -1422,6 +1495,7 @@ footer .contact-form button.filled-button:hover {
 	.contact-item {
 		margin-bottom: 30px;
 	}
+	
 }
 
 @media (max-width: 992px) {
