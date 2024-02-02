@@ -197,7 +197,7 @@ a.border-button:hover {
 
 .moving-text {
 	white-space: nowrap;
-	overflow: hidden;
+	overflow: auto;
 	animation: moveText 30s linear infinite;
 	display: inline-block;
 }
